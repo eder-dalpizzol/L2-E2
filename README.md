@@ -1,5 +1,8 @@
  Escolinha Scheduling System
 
+Teste de versao live:
+https://dalpizzol.pythonanywhere.com/
+
 ## Descrição
 Aplicação Flask para visualizar:
 - Horas de aula por professor  
