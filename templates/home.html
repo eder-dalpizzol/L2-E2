@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Página Inicial{% endblock %}
+{% block content %}
+  <div class="text-center">
+    <h1 class="mb-4">Bem-vindo!</h1>
+    <div class="d-grid gap-3 col-6 mx-auto">
+      <a href="{{ url_for('horas_por_professor') }}"
+         class="btn btn-primary btn-lg">Horas por Professor</a>
+      <a href="{{ url_for('salas_horarios') }}"
+         class="btn btn-secondary btn-lg">Salas e Horários</a>
+    </div>
+  </div>
+{% endblock %}
