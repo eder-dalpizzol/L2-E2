@@ -15,15 +15,15 @@ Aplicação Flask para visualizar:
 ## Estrutura de pastas
 
 seu_projeto/
-│
-├─ app.py
-├─ example_data/
-│ └─ populate_data.sql
-└─ templates/
-  └─ base.html
-  └─  home.html
-  └─ horas_por_professor.html
-  └─  salas_horarios.html
+├── app.py
+├── example_data/
+│   └── populate_data.sql
+└── templates/
+    ├── base.html
+    ├── home.html
+    ├── horas_por_professor.html
+    └── salas_horarios.html
+
 
 
 ## Instalação
